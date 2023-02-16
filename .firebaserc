@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "desvioscarnaval-2023-bhtrans": {
+      "hosting": {
+        "blocos": [
+          "desvioscarnaval-2023-bhtrans"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "desvioscarnaval-2023-bhtrans"
+  }
+}
