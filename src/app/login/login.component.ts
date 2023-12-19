@@ -20,8 +20,8 @@ export class LoginComponent {
     private loginService: LoginService
   ) {
     this.form = this.formBuilder.group({
-      user: ['2023'],
-      password: ['2023'],
+      user: ['564'],
+      password: ['123456'],
     });
   }
 
@@ -30,7 +30,7 @@ export class LoginComponent {
     if (this.userAuth === 'user') {
       this.router.navigate(['desvios/list']);
     }
-    if (this.userAuth === 'form') {
+    if (this.userAuth === 'adm') {
       this.router.navigate(['desvios/form']);
     }
     if (this.userAuth === '') {

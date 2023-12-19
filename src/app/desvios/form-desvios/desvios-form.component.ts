@@ -26,13 +26,13 @@ export class DesvioFormComponent {
     private route: ActivatedRoute,
     private location: Location
   ) {
-    const desvio: Desvio = this.route.snapshot.data['desvio'];
-    this.key = this.route.snapshot.params['key'];
+    // const desvio: Desvio = this.route.snapshot.data['desvio'];
+    // this.key = this.route.snapshot.params['key'];
 
-    this.form.setValue({
-      linha: desvio.linha,
-      link: desvio.link,
-    });
+    // this.form.setValue({
+    //   linha: desvio.linha,
+    //   link: desvio.link,
+    // });
   }
 
   async onCancel() {

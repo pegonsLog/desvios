@@ -16,5 +16,6 @@ import { DesvioFormComponent } from './form-desvios/desvios-form.component';
     FormsModule,
     ReactiveFormsModule
   ],
+  exports: [ListDesviosComponent, DesvioFormComponent]
 })
 export class DesviosModule {}

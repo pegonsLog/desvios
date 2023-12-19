@@ -1,16 +1,15 @@
 import { Injectable } from '@angular/core';
 import {
-  AngularFireList,
   AngularFireDatabase,
+  AngularFireList,
 } from '@angular/fire/compat/database';
-import { Subscription, Observable, map } from 'rxjs';
+import { Observable, map } from 'rxjs';
 import { Desvio } from '../model/desvio';
 
 @Injectable({
   providedIn: 'root',
 })
 export class DesviosService {
-  subscription: Subscription = new Subscription();
   desvios: Desvio[] = [];
   items;
   itemsRef: AngularFireList<any>;
