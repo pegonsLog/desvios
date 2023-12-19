@@ -124,17 +124,8 @@
             ],
             "scripts": []
           }
-        },
-        "deploy": {
-          "builder": "@angular/fire:deploy",
-          "options": {
-            "prerender": false,
-            "ssr": false,
-            "browserTarget": "blocos:build:production",
-            "firebaseProject": "desvioscarnaval-2023-bhtrans",
-            "firebaseHostingSite": "desvioscarnaval-2023-bhtrans"
-          }
         }
+
       }
     }
   },
